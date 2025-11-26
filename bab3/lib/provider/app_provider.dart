@@ -61,6 +61,7 @@ class AppProvider extends ChangeNotifier {
       try {
         await loginToApp(emailController.text, passController.text);
       } catch (e) {
+        print(e.toString());
         showDialog(
           context: context,
           builder: (builder) => AlertDialog(

@@ -1,4 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'provider/app_provider.dart';
 import 'screens/auth_gate_page.dart';
@@ -9,15 +10,16 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   try {
-    if (Firebase.apps.isEmpty) {
-      await Firebase.initializeApp(
-        options: DefaultFirebaseOptions.currentPlatform,
-      );
-    } else {
-      Firebase.app();
-    }
+    await Firebase.initializeApp(
+      options: kIsWeb
+          ? DefaultFirebaseOptions.web
+          : DefaultFirebaseOptions.currentPlatform,
+    );
+    debugPrint(
+      "✅ Firebase initialized for web: ${DefaultFirebaseOptions.web.projectId}",
+    );
   } catch (e) {
-    debugPrint("Firebase already initialized: $e");
+    debugPrint("Firebase initialization error: $e");
   }
 
   runApp(const MyApp());
