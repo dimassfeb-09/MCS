@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **PRAKTIKUM MCS BAB 4**
 
 ## _APPLICATION PROGRAMMING INTERFACE_
@@ -481,3 +482,21 @@ class DetailPage extends StatelessWidget {
 ```
 
 Halaman ini merupakan halaman lanjutan ketika pengguna menekan salah satu berita yang ada pada halaman home. Halaman ini dibentuk dengan menggunakan widget ListView() dan menampilkan beberapa informasi, seperti gambar, judul, nama penulis, tanggal publikasi, dan deskripsi dari berita tersebut.
+=======
+# bab4
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> 4a2c2892e802b90653edb29775e60bf46f7ebd3a

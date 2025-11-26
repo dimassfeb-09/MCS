@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'provider/app_provider.dart';
 import 'screens/auth_gate_page.dart';
-import 'services/firebase_options.dart';
+import 'firebase_options.dart';
 import 'package:provider/provider.dart';
 
 void main() async {

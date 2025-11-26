@@ -1,8 +1,14 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:mcs_bab_4/provider/app_provider.dart';
 import 'package:mcs_bab_4/screens/detail_page.dart';
 import 'package:mcs_bab_4/service/news_service.dart';
+=======
+import 'package:bab4/provider/app_provider.dart';
+import 'package:bab4/screens/detail_page.dart';
+import 'package:bab4/service/news_service.dart';
+>>>>>>> 4a2c2892e802b90653edb29775e60bf46f7ebd3a
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {

@@ -25,14 +25,9 @@ var (
 
 func main() {
 	var PORT = ":8080"
-
 	psqlInfo := fmt.Sprintf(
-		`host=%s port=%d user=%s password=%s dbname=%s sslmode=disable`,
-		host, port, user, password, dbName,
-	)
 
 	DB, err = sql.Open("postgres", psqlInfo)
-
 	if err != nil {
 		log.Fatal("Error Open DB: ", err)
 	}

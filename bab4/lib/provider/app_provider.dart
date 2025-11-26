@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+<<<<<<< HEAD
 import 'package:mcs_bab_4/model/news_model.dart';
+=======
+import 'package:bab4/model/news_model.dart';
+>>>>>>> 4a2c2892e802b90653edb29775e60bf46f7ebd3a
 
 class AppProvider extends ChangeNotifier {
   NewsSource? source;

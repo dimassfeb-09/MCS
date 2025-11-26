@@ -1,6 +1,10 @@
 module mcs_bab_6
 
+<<<<<<< HEAD
 go 1.25.0
+=======
+go 1.23.1
+>>>>>>> 4a2c2892e802b90653edb29775e60bf46f7ebd3a
 
 require (
 	github.com/gin-gonic/gin v1.11.0

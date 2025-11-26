@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+<<<<<<< HEAD
 import 'package:mcs_bab_4/provider/app_provider.dart';
+=======
+import 'package:bab4/provider/app_provider.dart';
+>>>>>>> 4a2c2892e802b90653edb29775e60bf46f7ebd3a
 import 'package:provider/provider.dart';
 
 class DetailPage extends StatelessWidget {
